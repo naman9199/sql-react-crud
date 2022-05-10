@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  margin-top: 10px;
+  padding: 20px 10px;
+  width: 300px;
+}
+
+.form label {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: black;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.movieListContainer{
+  margin: 30px;
+  display: flex;
+  width:fit-content;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.deleteButton{
+  background-color: #a20;
+}
+
+.card{
+  margin-top: 20px;
+  display: flex;
+  height: fit-content;
+  width: 200px;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: #000 0px 0px 7px;
+}
+
+.card h3{
+  font-size: 20px;
+}
+
+.card span {
+  font-size: 15px;
+  padding: 0px 20px;
+}
+
+.card button {
+  border-radius: 0px 0px 20px 20px;
+  /* width: 200px; */
+}
